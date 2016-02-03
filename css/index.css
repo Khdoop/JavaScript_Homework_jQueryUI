@@ -1,0 +1,70 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Calibri !important;
+  font-size: 18px;
+  background: #c1c8ff; }
+
+form #tours .panel-heading {
+  cursor: pointer; }
+  form #tours .panel-heading:hover {
+    background: rgba(87, 165, 247, 0.44); }
+form #tours #tours-list {
+  padding: 0;
+  display: none; }
+  form #tours #tours-list ul {
+    margin: 0;
+    cursor: pointer; }
+form span.ui-selectmenu-button {
+  background: white;
+  color: #31708f; }
+form #cart {
+  margin-bottom: 0; }
+form #book {
+  margin: 20px; }
+
+ul li {
+  background: white !important;
+  color: #31708f !important;
+  border-color: white !important; }
+  ul li:hover {
+    background: #b5d5f7 !important; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+.list-group li:first-child {
+  border-radius: 0; }
+
+.placeholder {
+  color: #9d9d9d;
+  font-style: italic; }
+
+.ui-draggable-dragging {
+  color: #31708f;
+  background: #b5d5f7 !important;
+  border: 1px solid #31708f;
+  border-radius: 5px; }
+
+.ui-droppable {
+  cursor: pointer;
+  color: #31708f !important;
+  min-height: 30px; }
+
+/*ol.ui-state-default {
+    background: $form-selectmenu-background-hover !important;
+
+}*/
+.glyphicon-trash {
+  color: #ff9d89; }
+  .glyphicon-trash:hover {
+    color: red; }
+
+.tooltip-inner {
+  background: #b5d5f7 !important;
+  color: #31708f; }
+
+.tooltip-arrow {
+  border-left-color: #b5d5f7 !important; }
+
+/*# sourceMappingURL=index.css.map */

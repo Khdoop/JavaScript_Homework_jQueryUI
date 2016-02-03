@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.list-group li:first-child {
+    border-radius: 0;
+}
+
+.placeholder {
+    color: $misc-placeholder-color;
+    font-style: italic;
+}
+
+.ui-draggable-dragging {
+    color: $form-selectmenu-color;
+    background: $form-selectmenu-background-hover !important;
+    border: 1px solid $form-selectmenu-color;
+    border-radius: 5px;
+}
+
+.ui-droppable {
+    cursor: pointer;
+    color: $form-selectmenu-color !important;
+    min-height: 30px;
+}
+
+/*ol.ui-state-default {
+    background: $form-selectmenu-background-hover !important;
+
+}*/
+
+.glyphicon-trash {
+    color: $misc-glyphicon-trash-color;
+
+    &:hover {
+        color: $misc-glyphicon-trash-color-hover;
+    }
+}
+
+.tooltip-inner {
+    background: $form-selectmenu-background-hover !important;
+    color: $form-selectmenu-color;
+}
+
+.tooltip-arrow {
+    border-left-color: $form-selectmenu-background-hover !important;
+}

@@ -1,0 +1,9 @@
+ul li {
+  background: $form-selectmenu-background !important;
+  color: $form-selectmenu-color !important;
+  border-color: $form-selectmenu-background !important;
+
+  &:hover {
+    background: $form-selectmenu-background-hover !important;
+  }
+}

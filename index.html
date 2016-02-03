@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Book a vacation</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Book a vacation</div>
+                    <div id="main" class="panel-body">
+                        <div class="col-lg-3"></div>
+                        <form class="col-lg-6 text-info">
+                            <div class="form-group">
+                                <label for="name" class="control-label">First name</label>
+                                <input type="text" id="name" class="form-control" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="surname" class="control-label">Surname</label>
+                                <input type="text" id="surname" class="form-control" name="surname">
+                            </div>
+                            <div class="form-group">
+                                <label for="date" class="control-label">Date</label>
+                                <input type="text" id="date" class="form-control" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="from-city" class="control-label">Flying from</label>
+                                <select name="from-city" id="from-city" class="form-control text-info">
+                                    <option value="1">Sofia</option>
+                                    <option value="2">Plovdiv</option>
+                                    <option value="3">Varna</option>
+                                    <option value="4">Burgas</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="to-city" class="control-label">Flying to</label>
+                                <select name="to-city" id="to-city" class="form-control bg-info">
+                                    <option value="1">Santa Monica, CA</option>
+                                    <option value="2">Malibu, CA</option>
+                                    <option value="3">Redondo Beach, CA</option>
+                                    <option value="4">Long Beach, CA</option>
+                                </select>
+                            </div>
+                            <div id="tours"  class="panel panel-info">
+                                <div class="panel-heading"><b>Choose 3 tours</b></div>
+                                <div id="tours-list" class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item" data-toggle="tooltip" seq="01">The Getty Center</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="02">Griffith Observatory</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="03">Universal Studios Hollywood</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="04">California Science Center</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="05">Nethercutt Museum</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="06">Los Angeles County Museum of Art</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="07">Griffith Park</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="08">Staples Center</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="09">Santa Monica Bay</li>
+                                        <li class="list-group-item" data-toggle="tooltip" seq="10">Natural History Museum of Los Angeles County</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="cart" class="panel panel-info">
+                                <div class="ui-widget-header panel-heading">Your tours</div>
+                                <div class="ui-widget-content panel-body">
+                                    <ol>
+                                        <li class="placeholder">Add your tours here</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <button id="book" class="btn btn-primary">Book your vacation</button>
+                        </form>
+                        <div class="col-lg-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/booking.js"></script>
+</html>
